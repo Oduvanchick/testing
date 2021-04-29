@@ -10,11 +10,19 @@
         <local:MainViewModel></local:MainViewModel>
     </Window.DataContext>
     <Grid>
-        <Button HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Width="100"
-                Height="30"> Hello World!
-            
-        </Button>
+        <StackPanel>
+            <Button HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="100"
+                    Height="30">Hello World!
+
+            </Button>
+            <Button
+                    Width="100"
+                    Height="30"
+                Margin="20">Second
+
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
